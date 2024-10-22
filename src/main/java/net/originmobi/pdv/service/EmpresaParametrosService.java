@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.EmpresaParametrosRepository;
 @Service
 public class EmpresaParametrosService {
 
-	@Autowired
+	
 	private EmpresaParametrosRepository parametros;
 
 	public List<EmpresaParametro> lista() {

@@ -15,17 +15,19 @@ import net.originmobi.pdv.enumerado.EntradaSaida;
 import net.originmobi.pdv.enumerado.ajuste.AjusteStatus;
 import net.originmobi.pdv.filter.AjusteFilter;
 import net.originmobi.pdv.model.Ajuste;
+
 import net.originmobi.pdv.repository.AjusteRepository;
 import net.originmobi.pdv.singleton.Aplicacao;
 
 @Service
 public class AjusteService {
 
-	@Autowired
+	
 	private AjusteRepository ajustes;
 
 	@Autowired
 	private ProdutoService produtos;
+
 
 	LocalDate dataAtual;
 

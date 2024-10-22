@@ -29,7 +29,7 @@ public class CaixaService {
 	private String descricao;
 	private Usuario usuario;
 
-	@Autowired
+	
 	private CaixaRepository caixas;
 
 	@Autowired

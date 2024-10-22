@@ -24,7 +24,7 @@ import net.originmobi.pdv.service.ProdutoService;
 @Service
 public class NotaFiscalItemService {
 
-	@Autowired
+	
 	private NotaFiscalItemRepository itemServer;
 
 	@Autowired

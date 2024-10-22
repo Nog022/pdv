@@ -14,7 +14,7 @@ import net.originmobi.pdv.repository.GrupoRepository;
 @Service
 public class GrupoService {
 
-	@Autowired
+	
 	private GrupoRepository grupos;
 
 	private LocalDate dataAtual = LocalDate.now();

@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.EstadoRepository;
 @Service
 public class EstadoService {
 
-	@Autowired
+	
 	private EstadoRepository estados;
 
 	public List<Estado> lista() {

@@ -15,7 +15,7 @@ import net.originmobi.pdv.repository.AjusteProdutoRepository;
 @Service
 public class AjusteProdutoService {
 
-	@Autowired
+	
 	private AjusteProdutoRepository ajusteprodutos;
 
 	@Autowired

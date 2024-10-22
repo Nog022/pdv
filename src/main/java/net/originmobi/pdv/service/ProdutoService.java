@@ -20,7 +20,7 @@ import net.originmobi.pdv.repository.ProdutoRepository;
 @Service
 public class ProdutoService {
 
-	@Autowired
+	
 	private ProdutoRepository produtos;
 
 	@Autowired

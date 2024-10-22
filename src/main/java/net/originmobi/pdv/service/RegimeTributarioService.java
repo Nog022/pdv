@@ -12,7 +12,7 @@ import net.originmobi.pdv.repository.RegimeTributarioRepository;
 @Service
 public class RegimeTributarioService {
 
-	@Autowired
+	
 	private RegimeTributarioRepository regimestributarios;
 
 	public List<RegimeTributario> lista() {

@@ -23,6 +23,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 			
 			.antMatchers("/").hasRole("ENTRAR_NO_SISTEMA")
 			.antMatchers("/pessoa").hasRole("VISUALIZAR_PESSOA")
+			.antMatchers("/teste").hasRole("TESTE")
 			.antMatchers("/pessoa/form").hasRole("EDITAR_PESSOA")
 			.antMatchers("/fornecedor").hasRole("VISUALIZAR_FORNECEDOR")
 			.antMatchers("/fornecedor/form").hasRole("EDITAR_FORNECEDOR")

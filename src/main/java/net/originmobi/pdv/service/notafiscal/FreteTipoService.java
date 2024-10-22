@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.notafiscal.FreteTipoRepository;
 @Service
 public class FreteTipoService {
 
-	@Autowired
+	
 	private FreteTipoRepository repository;
 
 	public List<FreteTipo> lista() {

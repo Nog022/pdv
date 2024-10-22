@@ -16,7 +16,7 @@ import net.originmobi.pdv.repository.UsuarioRepository;
 @Service
 public class UsuarioService {
 
-	@Autowired
+	
 	private UsuarioRepository usuarios;
 
 	@Autowired

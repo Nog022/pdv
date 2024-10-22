@@ -12,7 +12,7 @@ import net.originmobi.pdv.repository.TituloRepository;
 @Service
 public class TituloService {
 
-	@Autowired
+	
 	private TituloRepository titulos;
 
 	public List<Titulo> lista() {

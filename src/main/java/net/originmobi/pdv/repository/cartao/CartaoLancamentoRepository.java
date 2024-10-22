@@ -5,9 +5,10 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
 
 import net.originmobi.pdv.model.cartao.CartaoLancamento;
-
+@Repository
 public interface CartaoLancamentoRepository extends JpaRepository<CartaoLancamento, Long> {
 	
 	@Query(value = "select cl.* from cartao_lancamento cl where cl.situacao like :situacao and cl.tipo like :tipo and cl.data_recebimento like :data_recebimento", nativeQuery = true)

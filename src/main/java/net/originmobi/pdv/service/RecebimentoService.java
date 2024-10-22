@@ -30,7 +30,7 @@ import net.originmobi.pdv.utilitarios.DataAtual;
 @Service
 public class RecebimentoService {
 
-	@Autowired
+	
 	private RecebimentoRepository recebimentos;
 
 	@Autowired

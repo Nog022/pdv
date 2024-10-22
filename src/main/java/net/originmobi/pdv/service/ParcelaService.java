@@ -18,7 +18,7 @@ import net.originmobi.pdv.utilitarios.DataAtual;
 @Service
 public class ParcelaService {
 
-	@Autowired
+	
 	private ParcelaRepository parcelas;
 
 	public void gerarParcela(Double total, Double desconto, Double acrescimo, Double recebido, Double restante,

@@ -25,7 +25,7 @@ import net.originmobi.pdv.repository.PessoaRepository;
 @Service
 public class PessoaService {
 
-	@Autowired
+	
 	private PessoaRepository pessoas;
 
 	@Autowired

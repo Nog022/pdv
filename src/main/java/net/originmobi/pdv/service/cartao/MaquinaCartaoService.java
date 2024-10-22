@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.cartao.MaquinaCartaoRepository;
 @Service
 public class MaquinaCartaoService {
 
-	@Autowired
+	
 	private MaquinaCartaoRepository maquinas;
 
 	public void cadastrar(MaquinaCartao maquinaCartao) {

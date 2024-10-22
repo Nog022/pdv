@@ -7,10 +7,11 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
 
 import net.originmobi.pdv.enumerado.caixa.CaixaTipo;
 import net.originmobi.pdv.model.Caixa;
-
+@Repository
 public interface CaixaRepository extends JpaRepository<Caixa, Long> {
 
 	@Query("select c from Caixa c order by 1 desc")

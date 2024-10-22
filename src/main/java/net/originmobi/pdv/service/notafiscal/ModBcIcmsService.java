@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.notafiscal.ModBcIcmsRepository;
 @Service
 public class ModBcIcmsService {
 
-	@Autowired
+	
 	private ModBcIcmsRepository repository;
 
 	public List<ModBcIcms> lista() {

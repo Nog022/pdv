@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.ReceberRepository;
 @Service
 public class ReceberService {
 
-	@Autowired
+	
 	private ReceberRepository receberRepo;
 
 	public void cadastrar(Receber receber) {

@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.notafiscal.CstIpiRepository;
 @Service
 public class CstIpiService {
 
-	@Autowired
+	
 	private CstIpiRepository repository;
 
 	public List<CstIPI> lista() {

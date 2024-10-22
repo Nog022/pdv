@@ -7,7 +7,7 @@
 	<groupId>net.originmobi</groupId>
 	<artifactId>pdv</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 
 	<name>pdv</name>
 	<description></description>
@@ -96,6 +96,11 @@
 			<scope>provided</scope>
 		</dependency>
 		<!-- … -->
+		<dependency>
+			<groupId>io.gitHub.AugustoMello09</groupId>
+			<artifactId>helpDesk</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -105,5 +110,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+
 	</build>
 </project>

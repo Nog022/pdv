@@ -13,7 +13,7 @@ import net.originmobi.pdv.repository.GrupoUsuarioRepository;
 @Service
 public class GrupoUsuarioService {
 
-	@Autowired
+	
 	private GrupoUsuarioRepository grupousuarios;
 
 	public List<GrupoUsuario> buscaGrupos(Usuario usuario) {

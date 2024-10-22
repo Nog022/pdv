@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.PermissoesRespository;
 @Service
 public class PermissoesService {
 
-	@Autowired
+	
 	private PermissoesRespository permissoes;
 
 	public List<Permissoes> lista() {

@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.CfopRepository;
 @Service
 public class CfopService {
 	
-	@Autowired
+	
 	private CfopRepository cfops;
 	
 	public List<CFOP> lista() {

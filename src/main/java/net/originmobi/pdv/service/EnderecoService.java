@@ -13,7 +13,7 @@ import net.originmobi.pdv.repository.EnderecoRepository;
 @Service
 public class EnderecoService {
 
-	@Autowired
+	
 	private EnderecoRepository enderecos;
 
 	LocalDate dataAtual = LocalDate.now();

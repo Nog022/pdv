@@ -37,7 +37,7 @@ import net.originmobi.pdv.utilitarios.DataAtual;
 @Service
 public class VendaService {
 
-	@Autowired
+	
 	private VendaRepository vendas;
 
 	@Autowired

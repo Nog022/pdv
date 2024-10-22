@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.notafiscal.NotaFiscalTotaisRepository;
 @Service
 public class NotaFiscalTotaisServer {
 
-	@Autowired
+	
 	private NotaFiscalTotaisRepository totais;
 
 	public List<NotaFiscalTotais> lista() {

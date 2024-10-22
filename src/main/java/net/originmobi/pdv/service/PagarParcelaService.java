@@ -17,7 +17,7 @@ import net.originmobi.pdv.repository.PagarParcelaRespository;
 @Service
 public class PagarParcelaService {
 
-	@Autowired
+	
 	private PagarParcelaRespository parcelas;
 
 	public void cadastrar(Double vltotal, Double vlrestante, int quitado, Timestamp cadastro, LocalDate vencimento,

@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.CstRepository;
 @Service
 public class CstService {
 
-	@Autowired
+	
 	private CstRepository csts;
 
 	public List<Cst> lista() {

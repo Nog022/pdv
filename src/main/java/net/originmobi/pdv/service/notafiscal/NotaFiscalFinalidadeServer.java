@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.notafiscal.NotaFiscalFinalidadeRepository;
 @Service
 public class NotaFiscalFinalidadeServer {
 
-	@Autowired
+	
 	private NotaFiscalFinalidadeRepository repository;
 
 	public List<NotaFiscalFinalidade> lista() {

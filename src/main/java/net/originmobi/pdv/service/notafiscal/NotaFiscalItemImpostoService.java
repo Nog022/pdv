@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.notafiscal.NotaFiscalItemImpostoRepository;
 @Service
 public class NotaFiscalItemImpostoService {
 
-	@Autowired
+	
 	private NotaFiscalItemImpostoRepository impostos;
 
 	public void cadastro(NotaFiscalItemImposto imposto) {

@@ -14,7 +14,7 @@ import net.originmobi.pdv.repository.TributacaoRegraRepository;
 @Service
 public class TributacaoRegraService {
 
-	@Autowired
+	
 	private TributacaoRegraRepository regras;
 
 	public List<TributacaoRegra> lista() {

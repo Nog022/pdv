@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.TituloTipoRepository;
 @Service
 public class TituloTipoService {
 
-	@Autowired
+	
 	private TituloTipoRepository tipos;
 
 	public List<TituloTipo> lista() {

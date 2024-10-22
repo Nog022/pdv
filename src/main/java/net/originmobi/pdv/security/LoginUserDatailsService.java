@@ -22,13 +22,13 @@ import net.originmobi.pdv.repository.UsuarioRepository;
 @Component
 public class LoginUserDatailsService implements UserDetailsService {
 
-	@Autowired
+	
 	private UsuarioRepository usuarios;
 
-	@Autowired
+	
 	private GrupoUsuarioRepository grupos;
 
-	@Autowired
+	
 	private PermissoesRespository permissoes;
 
 	@Override

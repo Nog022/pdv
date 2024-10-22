@@ -26,7 +26,7 @@ import net.originmobi.pdv.utilitarios.DataAtual;
 @Service
 public class PagarService {
 
-	@Autowired
+	
 	private PagarRepository pagarRepo;
 
 	@Autowired

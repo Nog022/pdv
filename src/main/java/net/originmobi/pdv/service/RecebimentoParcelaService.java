@@ -12,7 +12,7 @@ import net.originmobi.pdv.repository.RecebimentoParcelaRepository;
 @Service
 public class RecebimentoParcelaService {
 
-	@Autowired
+	
 	private RecebimentoParcelaRepository recebimentoparcelas;
 
 	public List<RecebimentoParcela> lista() {

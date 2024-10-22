@@ -20,6 +20,11 @@ public class BancoController {
 	@Autowired
 	private CaixaService caixas;
 	
+	@GetMapping("/teste")
+	public String testeRequisicao() {
+		return "Requisicao concluida com sucesso";
+	}
+	
 	@GetMapping
 	public ModelAndView listar(@ModelAttribute("filterBanco") BancoFilter filter) {
 		ModelAndView mv = new ModelAndView(BANCO_LIST);

@@ -31,7 +31,7 @@ import net.originmobi.pdv.xml.nfe.GeraXmlNfe;
 @Service
 public class NotaFiscalService {
 
-	@Autowired
+	
 	private NotaFiscalRepository notasFiscais;
 
 	@Autowired

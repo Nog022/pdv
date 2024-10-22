@@ -13,7 +13,7 @@ import net.originmobi.pdv.repository.PagamentoTipoRespository;
 @Service
 public class PagamentoTipoService {
 
-	@Autowired
+	
 	private PagamentoTipoRespository pagamentotipo;
 
 	private LocalDate dataAtual = LocalDate.now();

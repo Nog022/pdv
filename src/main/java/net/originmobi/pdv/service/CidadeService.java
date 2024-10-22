@@ -12,7 +12,7 @@ import net.originmobi.pdv.repository.CidadeRepository;
 @Service
 public class CidadeService {
 
-	@Autowired
+	
 	private CidadeRepository cidades;
 
 	public List<Cidade> lista() {

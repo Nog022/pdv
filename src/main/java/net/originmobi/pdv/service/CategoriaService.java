@@ -16,7 +16,7 @@ public class CategoriaService {
 
 	private LocalDate dataAtual = LocalDate.now();
 
-	@Autowired
+	
 	private CategoriaRepository categorias;
 
 	public void cadastrar(Categoria categoria) {

@@ -20,10 +20,10 @@ import net.originmobi.pdv.repository.EmpresaRepository;
 @Service
 public class EmpresaService {
 
-	@Autowired
+	
 	private EmpresaRepository empresas;
 
-	@Autowired
+	
 	private EmpresaParametrosRepository parametros;
 
 	@Autowired

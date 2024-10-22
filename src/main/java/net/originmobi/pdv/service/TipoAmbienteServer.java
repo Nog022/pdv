@@ -11,7 +11,7 @@ import net.originmobi.pdv.repository.TipoAmbienteRepository;
 @Service
 public class TipoAmbienteServer {
 
-	@Autowired
+	
 	private TipoAmbienteRepository ambientes;
 
 	public List<TipoAmbiente> lista() {

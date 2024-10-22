@@ -12,7 +12,7 @@ import net.originmobi.pdv.repository.PagarTipoRepository;
 @Service
 public class PagarTipoService {
 
-	@Autowired
+	
 	private PagarTipoRepository pagartipos;
 
 	public List<PagarTipo> lista() {

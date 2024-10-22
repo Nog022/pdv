@@ -31,7 +31,7 @@ import net.originmobi.pdv.utilitarios.DataAtual;
 @Service
 public class CartaoLancamentoService {
 
-	@Autowired
+	
 	private CartaoLancamentoRepository repository;
 
 	@Autowired

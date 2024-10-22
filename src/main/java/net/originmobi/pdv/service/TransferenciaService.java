@@ -15,7 +15,7 @@ import net.originmobi.pdv.utilitarios.DataAtual;
 @Service
 public class TransferenciaService {
 
-	@Autowired
+	
 	private TransferenciaRepository transferencias;
 
 	@Autowired

@@ -2,9 +2,10 @@ package net.originmobi.pdv.repository.notafiscal;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
 
 import net.originmobi.pdv.model.NotaFiscalTotais;
-
+@Repository
 public interface NotaFiscalTotaisRepository extends JpaRepository<NotaFiscalTotais, Long> {
 
 	@Query(value = "select coalesce(sum(nfi.vl_total), 0) total, coalesce(sum(nfii.v_icms), 0) icms, coalesce(sum(nfii.v_pis), 0) pis, "

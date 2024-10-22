@@ -12,7 +12,7 @@ import net.originmobi.pdv.repository.TelefoneRepository;
 @Service
 public class TelefoneService {
 
-	@Autowired
+	
 	private TelefoneRepository telefones;
 
 	LocalDate dataAtual = LocalDate.now();

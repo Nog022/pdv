@@ -10,12 +10,13 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
 
 import net.originmobi.pdv.enumerado.VendaSituacao;
 import net.originmobi.pdv.model.PagamentoTipo;
 import net.originmobi.pdv.model.Pessoa;
 import net.originmobi.pdv.model.Venda;
-
+@Repository
 public interface VendaRepository extends JpaRepository<Venda, Long> {
 
 	public Page<Venda> findByCodigoIn(Long codigo, Pageable pageable);

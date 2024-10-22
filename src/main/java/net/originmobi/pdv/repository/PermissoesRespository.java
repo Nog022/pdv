@@ -4,10 +4,11 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
 
 import net.originmobi.pdv.model.GrupoUsuario;
 import net.originmobi.pdv.model.Permissoes;
-
+@Repository
 public interface PermissoesRespository extends JpaRepository<Permissoes, Long> {
 
 	public List<Permissoes> findByGrupoUsuarioIn(GrupoUsuario grupoUsuario);

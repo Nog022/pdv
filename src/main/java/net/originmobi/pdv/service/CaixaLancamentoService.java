@@ -18,7 +18,7 @@ import net.originmobi.pdv.repository.CaixaLancamentoRepository;
 @Service
 public class CaixaLancamentoService {
 
-	@Autowired
+	
 	private CaixaLancamentoRepository caixaLancamento;
 
 	@Autowired

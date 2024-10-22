@@ -14,7 +14,7 @@ import net.originmobi.pdv.repository.VendaProdutosRepository;
 @Service
 public class VendaProdutoService {
 
-	@Autowired
+	
 	private VendaProdutosRepository vendaProdutos;
 
 	public void salvar(VendaProduto vendaProduto) {

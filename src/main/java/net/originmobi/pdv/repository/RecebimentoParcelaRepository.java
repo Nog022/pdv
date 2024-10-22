@@ -4,10 +4,11 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
 
 import net.originmobi.pdv.model.Parcela;
 import net.originmobi.pdv.model.RecebimentoParcela;
-
+@Repository
 public interface RecebimentoParcelaRepository extends JpaRepository<RecebimentoParcela, Long> {
 
 	@Query("select p from RecebimentoParcela rp, Parcela p where p.codigo = rp.parcela and rp.recebimento = ?1")

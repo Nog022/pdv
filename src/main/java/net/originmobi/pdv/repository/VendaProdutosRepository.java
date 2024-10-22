@@ -8,11 +8,12 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
 
 import net.originmobi.pdv.model.Produto;
 import net.originmobi.pdv.model.Venda;
 import net.originmobi.pdv.model.VendaProduto;
-
+@Repository
 public interface VendaProdutosRepository extends JpaRepository<VendaProduto, Long> {
 
 	/*

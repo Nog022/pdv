@@ -15,7 +15,7 @@ import net.originmobi.pdv.repository.FornecedorRepository;
 @Service
 public class FornecedorService {
 
-	@Autowired
+	
 	private FornecedorRepository fornecedores;
 
 	LocalDate dataAtual = LocalDate.now();
